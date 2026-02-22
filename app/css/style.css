@@ -1,0 +1,151 @@
+:root {
+	--primary-color: #003580;
+	--secondary-color: #febb02;
+	--bg-light: #f5f5f5
+}
+
+body {
+	font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+	background: #f5f5f5;
+	color: #212529;
+	margin: 0
+}
+
+.navbar {
+	background: var(--primary-color)
+}
+
+.navbar-brand,
+.navbar .nav-link {
+	color: #fff !important
+}
+
+.nav-tabs .nav-link {
+	color: #212529 !important
+}
+
+.nav-tabs .nav-link {
+	background-color: #f8f9fa !important;
+	border: 1px solid #dee2e6 !important;
+	border-bottom-color: transparent !important;
+	margin-right: .25rem;
+}
+
+.nav-tabs .nav-link.active {
+	background-color: #ffffff !important;
+	border-color: #dee2e6 #dee2e6 #ffffff !important;
+}
+
+.btn-primary {
+	background: var(--primary-color);
+	border: 0;
+	color: #fff
+}
+
+.btn-warning {
+	background: var(--secondary-color);
+	color: #003580
+}
+
+.hero-section {
+	background: var(--primary-color);
+	color: #fff;
+	padding: 48px 0;
+	margin-bottom: 30px
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0
+}
+
+.row>[class*='col-'] {
+	display: flex;
+	flex-direction: column;
+	align-items: stretch
+}
+
+.col-md-4 {
+	display: flex;
+	flex-direction: column
+}
+
+.hotel-card {
+	display: flex !important;
+	flex-direction: column !important;
+	background: #fff;
+	border-radius: .35rem;
+	box-shadow: 0 1px 6px rgba(0, 0, 0, 0.06);
+	overflow: hidden;
+	height: 100%;
+	min-height: 350px
+}
+
+.hotel-card img {
+	width: 414px !important;
+	height: 320px !important;
+	object-fit: cover !important;
+	flex-shrink: 0 !important;
+	display: block !important;
+	border: 0 !important;
+	padding: 0 !important;
+	margin: 0 !important
+}
+
+.card-img-top-fixed {
+	width: 211px !important;
+	height: 174px !important;
+	object-fit: cover !important;
+	object-position: center !important;
+	flex-shrink: 0 !important;
+	display: block !important;
+	border: 0 !important;
+	padding: 0 !important;
+	margin: 0 !important
+}
+
+.hotel-card .card-body {
+	display: flex !important;
+	flex-direction: column !important;
+	flex: 1 !important;
+	padding: 1rem
+}
+
+.hotel-card .card-title {
+	margin: 0 0 .5rem
+}
+
+.hotel-card .card-text {
+	flex: 1;
+	margin-bottom: 1rem;
+	overflow: hidden;
+	line-height: 1.5;
+	max-height: 3.2em
+}
+
+.hotel-card .mt-3 {
+	margin-top: auto !important
+}
+
+.hotel-card .actions {
+	margin-top: auto
+}
+
+.form-control {
+	background: #fff;
+	border: 1px solid #ced4da
+}
+
+a {
+	color: var(--primary-color)
+}
+
+.hotel-img-horizontal {
+	height: 174px;
+	border-radius: var(--bs-card-border-radius)
+}
+
+.card.shadow-sm.h-100 {
+	height: 174px !important
+}
