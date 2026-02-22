@@ -41,3 +41,11 @@ Importar mediante:
 
 ```sql
 SOURCE gestionhoteles.sql;
+
+## ✅ Cómo ejecutarlo en local (XAMPP)
+
+1. Copia la carpeta `app/hostelero/` dentro de `htdocs/`.
+2. Importa `database/gestionhoteles.sql` en MySQL (phpMyAdmin).
+3. Ajusta credenciales en `app/hostelero/includes/db.php`.
+4. Abre:
+   http://localhost/hostelero/
