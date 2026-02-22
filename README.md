@@ -41,6 +41,7 @@ Importar mediante:
 
 ```sql
 SOURCE gestionhoteles.sql;
+```
 
 ## ✅ Cómo ejecutarlo en local (XAMPP)
 
